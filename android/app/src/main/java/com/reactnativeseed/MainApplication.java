@@ -1,4 +1,4 @@
-package com.bitreactnative;
+package com.reactnativeseed;
 
 import android.app.Application;
 

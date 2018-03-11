@@ -5,7 +5,7 @@ export default function () {
     const loginForm = new LoginStore();
     return {
         loginForm,
-        mainStore,
+        mainStore
     };
 }
 //# sourceMappingURL=configureStore.js.map

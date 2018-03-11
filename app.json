@@ -1,7 +1,7 @@
 {
   "expo": {
     "sdkVersion": "24.0.0",
-    "slug": "Bit-React-Native",
+    "slug": "React-Native-Seed",
     "loading": {
       "hideExponentText": false,
       "icon": "./assets/loading.png"

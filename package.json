@@ -1,5 +1,5 @@
 {
-  "name": "BitFrameowrkReactNativeSample",
+  "name": "BitReactNative",
   "version": "1.1.0",
   "private": true,
   "devDependencies": {
@@ -20,6 +20,7 @@
     "eslint-plugin-prettier": "2.2.0",
     "eslint-plugin-react": "7.3.0",
     "eslint-plugin-react-native": "3.1.0",
+    "husky": "0.14.3",
     "jest-expo": "^24.0.0",
     "react-test-renderer": "16.2.0",
     "rimraf": "^2.6.2",
@@ -42,11 +43,7 @@
   },
   "jest": {
     "preset": "jest-expo",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ],
+    "moduleFileExtensions": ["ts", "tsx", "js"],
     "transform": {
       "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
       "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
@@ -57,8 +54,6 @@
     ]
   },
   "dependencies": {
-    "@bit/jaydata": "^1.5.15",
-    "@bit/jaydata-odatajs": "^4.0.1",
     "lodash": "4.17.4",
     "mobx": "3.4.1",
     "mobx-react": "4.3.5",

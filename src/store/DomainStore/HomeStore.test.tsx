@@ -6,7 +6,7 @@ describe("HomeStore", () => {
 		const store = new HomeStore();
 		store.fetchItems(data);
 		const expectedArray = [
-			"React Native Starter Kit",
+			"Bit Foundation React Native",
 			"React Navigation",
 			"NativeBase Easy Grid",
 			"NativeBase",

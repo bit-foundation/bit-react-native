@@ -10,7 +10,6 @@ import Home from "./container/HomeContainer";
 import BlankPage from "./container/BlankPageContainer";
 import Sidebar from "./container/SidebarContainer";
 
-
 const Drawer = DrawerNavigator(
 	{
 		Home: { screen: Home },
@@ -32,8 +31,6 @@ const App = StackNavigator(
 		initialRouteName: "Login",
 		headerMode: "none",
 	}
-
-	
 );
 
 export default () => (
