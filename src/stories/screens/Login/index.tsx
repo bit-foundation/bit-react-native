@@ -14,7 +14,7 @@ class Login extends React.Component<Props, State> {
 				<Header style={{ height: 200 }}>
 					<Body style={{ alignItems: "center" }}>
 						<Icon name="flash" style={{ fontSize: 104 }} />
-						<Title>ReactNativeSeed.com</Title>
+						<Title>Bit React Native</Title>
 						<View padder>
 							<Text style={{ color: Platform.OS === "ios" ? "#000" : "#FFF" }} />
 						</View>
@@ -24,19 +24,16 @@ class Login extends React.Component<Props, State> {
 					{this.props.loginForm}
 					<View padder>
 						<Button block onPress={() => this.props.onLogin()}>
-							<Text>Login</Text>
+							<Text>ورود</Text>
 						</Button>
 					</View>
 				</Content>
 				<Footer style={{ backgroundColor: "#F8F8F8" }}>
 					<View style={{ alignItems: "center", opacity: 0.5, flexDirection: "row" }}>
 						<View padder>
-							<Text style={{ color: "#000" }}>Made with love at </Text>
+							<Text style={{ color: "#000" }}>Made with love at Bit Foundation</Text>
 						</View>
-						<Image
-							source={{ uri: "https://geekyants.com/images/logo-dark.png" }}
-							style={{ width: 422 / 4, height: 86 / 4 }}
-						/>
+						
 					</View>
 				</Footer>
 			</Container>

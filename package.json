@@ -20,7 +20,6 @@
     "eslint-plugin-prettier": "2.2.0",
     "eslint-plugin-react": "7.3.0",
     "eslint-plugin-react-native": "3.1.0",
-    "husky": "0.14.3",
     "jest-expo": "^24.0.0",
     "react-test-renderer": "16.2.0",
     "rimraf": "^2.6.2",
@@ -41,18 +40,7 @@
     "test": "yarn jest && tslint src/**/*.tsx && eslint .",
     "precommit": "yarn test"
   },
-  "jest": {
-    "preset": "jest-expo",
-    "moduleFileExtensions": ["ts", "tsx", "js"],
-    "transform": {
-      "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
-      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-    },
-    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-    "transformIgnorePatterns": [
-      "node_modules/(?!(react-native|lottie-react-native|expo|react-native-maps|react-native-svg|react-native-branch|native-base-shoutem-theme|react-native-easy-grid|react-native-drawer|react-native-vector-icons|react-native-keyboard-aware-scroll-view|react-navigation|native-base|@expo|react-native-scrollable-tab-view)/)"
-    ]
-  },
+
   "dependencies": {
     "lodash": "4.17.4",
     "mobx": "3.4.1",
